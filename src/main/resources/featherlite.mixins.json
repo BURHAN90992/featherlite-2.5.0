@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "package": "com.featherlite.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "CameraMixin",
+    "CameraNMixin",
+    "CameraFallbackMixin",
+    "CameraFallbackNMixin",
+    "EntityMixin",
+    "EntityNMixin",
+    "EntityAngleMixin",
+    "EntityAngleNMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
